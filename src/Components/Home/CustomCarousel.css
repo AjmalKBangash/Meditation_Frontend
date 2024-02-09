@@ -1,0 +1,51 @@
+/* CustomCarousel.css */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel .control-dots {
+  display: none; /* Hide default navigation dots */
+}
+
+.carousel .legend {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* CustomCarousel.css */
+.carousel-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  left: 10px; /* Adjust the left distance as needed */
+  color: white; /* Set the text color */
+  font-size: 20px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  /* background: rgba(0, 0, 0, 0.7); */
+  background: #00284b42;
+  /* Set the background color with transparency */
+  padding: 10px; /* Set padding */
+  border-radius: 4px;
+}

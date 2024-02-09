@@ -1,0 +1,111 @@
+.errorr {
+  color: red;
+  font-size: 10px;
+  margin: 1% 22px;
+}
+/* .sign-up-form-top {
+  background-color: rgba(233, 233, 233, 0.233);
+  width: 100vw;
+  height: 100vh;
+} */
+/* #003c70 */
+.sign-up-form {
+  height: fit-content;
+  width: 400px;
+  border: 1px solid #00284b;
+  border-radius: 8px;
+  margin: 15vh auto;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 9px -7px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 2px 9px -7px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 2px 9px -7px rgba(0, 0, 0, 0.76);
+}
+.sign-up-div {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin: 5% 12%;
+}
+.sign-up-div input {
+  width: 100%;
+  height: 30px;
+  /* border: 1px solid ; */
+  /* border-radius: 4px; */
+  /* box-shadow: 0px 2px 5px -99px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 2px 5px -99px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 2px 5px -99px rgba(0, 0, 0, 0.76); */
+  outline: none;
+}
+/* .sign-up-div input:focus { */
+/* outline: 1px solid red; */
+/* border: 1px solid red; */
+/* box-shadow: none; */
+/* } */
+.sign-up-icn_inpt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remember-me {
+  height: 1px;
+}
+.sign-up-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #00284b;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  margin: 0% auto;
+  cursor: pointer;
+}
+.sign-up-already-account {
+  color: red;
+  margin: 0%;
+  font-size: 12px;
+  cursor: pointer;
+}
+.sign-up-already-account:hover {
+  text-decoration: underline;
+}
+.plz-verify-account {
+  font-size: 16px;
+  margin: 4px 0px;
+  cursor: pointer;
+}
+.plz-verify-account:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  .sign-up-form {
+    width: 85svw;
+  }
+}
+
+/* ENTERPIN MODULE STYLING  */
+.enterpin-account-verified {
+  font-size: 16px;
+  color: green;
+}
+.enterpin-account-verified span {
+  color: red;
+  cursor: pointer;
+}
+.enterpin-account-verified span:hover {
+  text-decoration: underline;
+}
+/* PASSWORDRESETFORM  */
+.psswd-reset-succ {
+  color: green;
+}
+.psswd-reset-succ span {
+  color: red;
+  cursor: pointer;
+}
+.psswd-reset-succ span:hover {
+  text-decoration: underline;
+}
