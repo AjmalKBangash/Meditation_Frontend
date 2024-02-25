@@ -1,4 +1,3 @@
-// import axios from "./Components/Home/axiosinstance";
 import axios from "./Components/Axiosinstance";
 
 import Home from "./Components/Home/Home";
